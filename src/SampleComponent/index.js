@@ -4,11 +4,11 @@ import {View,Text,Image,TextInput} from 'react-native';
 const SampleComponent = () => {
 return (
   <View>
-    <Text style={{ textAlign:"center",fontWeight:"bold",fontSize:20 }}>Senin 16 November 2020</Text>
+    <Text style={{ textAlign:"center",fontWeight:"bold",fontSize:20 }}>Jumat 18 Desember 2020</Text>
     <Syahrizal/>
     <Text style={{ textAlign:"center",fontWeight:"bold",fontSize:18}}>Belajar react native</Text>
     <Gambar/>
-    <TextInput style={{ borderWidth:1 }}/>
+    <TextInput style={{ borderWidth:1 ,padding:20 }} />
     <BoxFree/>  
     <BoxImage/>
     
@@ -29,7 +29,7 @@ const Gambar = () => {
 
 class BoxFree extends Component{
   render(){
-    return <Text>Ini Adalah class Component</Text>
+    return <Text>Ini Adalah class Component Belajar React Native</Text>
   }
 }
 

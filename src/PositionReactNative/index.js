@@ -1,6 +1,6 @@
 import React from 'react'
 import { StyleSheet, Text, View,Image } from 'react-native'
-import Cart from './gambar/download.png'
+import Cart from '../assest/gambar/download.png'
 
 const PositionReactNative = () => {
     return (

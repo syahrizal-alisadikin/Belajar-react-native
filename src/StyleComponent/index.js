@@ -1,11 +1,11 @@
 import React from 'react';
 import {View,Text,Image} from 'react-native';
-import Laptop from './mac.jpg';
+import Laptop from '../assest/gambar/mac.jpg';
 
 const StyleComponent = () => {
   return (
     <View>
-      <Text style={{textAlign:"center",fontSize:18,fontWeight:'bold'}}>Ini Adalah Style</Text>
+      <Text style={{textAlign:"center",fontSize:18,fontWeight:'bold'}}>Ini Adalah Style React Native</Text>
       <View style={{width:200,height:200,backgroundColor:'#FEC8D8',borderRadius:8,marginVertical:16,marginHorizontal:80}}></View>
       <Jual/>
     </View>
