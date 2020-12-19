@@ -3,6 +3,7 @@ import { View , Text, TextInput,Image, ScrollView} from 'react-native';
 import SampleComponent from '../src/SampleComponent';
 import StyleComponent from '../src/StyleComponent';
 import FlexBox from '../src/FlexBox';
+import PropsDinamis from '../src/PropsDinamis';
 import PositionReactNative from '../src/PositionReactNative';
 const App = () => {
   return (
@@ -10,8 +11,9 @@ const App = () => {
       <ScrollView>
         {/* <SampleComponent/> */}
         {/* <StyleComponent/> */}
-        <FlexBox/>
+        {/* <FlexBox/> */}
         {/* <PositionReactNative/> */}
+        <PropsDinamis/>
       </ScrollView>
 
     </View>

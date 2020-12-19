@@ -15,7 +15,7 @@ class FlexBox extends Component {
         console.log('componenDidMount')
         setTimeout(()=> {
             this.setState({
-            subscribe:100,
+            subscribe:700,
             });
         },3000)
     }
