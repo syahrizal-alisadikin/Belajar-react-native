@@ -6,17 +6,19 @@ import FlexBox from '../src/FlexBox';
 import PropsDinamis from '../src/PropsDinamis';
 import StateDinamis from '../src/StateDinamis';
 import PositionReactNative from '../src/PositionReactNative';
+import ApiJs from '../src/CallApiJs';
 const App = () => {
-  const [angka, setAngka] = useState(0)
+  // const [angka, setAngka] = useState(0)
   return (
     <View>
       <ScrollView>
         {/* <SampleComponent/> */}
-        <StyleComponent buttonPress={()=> setAngka(angka + 1)}/>
+        {/* <StyleComponent buttonPress={()=> setAngka(angka + 1)}/> */}
         {/* <FlexBox/> */}
         {/* <PositionReactNative/> */}
         {/* <PropsDinamis/> */}
-        <StateDinamis jumlah={angka}/>
+        {/* <StateDinamis jumlah={angka}/> */}
+        <ApiJs/>
 
       </ScrollView>
 
