@@ -7,6 +7,7 @@ import PropsDinamis from '../src/PropsDinamis';
 import StateDinamis from '../src/StateDinamis';
 import PositionReactNative from '../src/PositionReactNative';
 import ApiJs from '../src/CallApiJs';
+import Register from '../src/Register';
 const App = () => {
   // const [angka, setAngka] = useState(0)
   return (
@@ -18,7 +19,8 @@ const App = () => {
         {/* <PositionReactNative/> */}
         {/* <PropsDinamis/> */}
         {/* <StateDinamis jumlah={angka}/> */}
-        <ApiJs/>
+        {/* <ApiJs/> */}
+        <Register/>
 
       </ScrollView>
 
