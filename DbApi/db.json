@@ -1,29 +1,16 @@
 {
-  "posts": [
+  "users": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Syahrizal",
+      "email": "alisadikinsyahrizal@gmail.com",
+      "bidang": "Web Developer"
     },
     {
-      "title": "Web Developer",
-      "author": "Syahrizal As",
-      "id": 2
-    },
-    {
-      "title": "Mobile Developer",
-      "author": "Syahrizal Alisadikin",
+      "name": "izal Dev",
+      "email": "izal@gmail.com",
+      "bidang": "RN Dev",
       "id": 3
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
